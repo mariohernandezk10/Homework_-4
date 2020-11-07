@@ -6,14 +6,14 @@ var questions = [
     answer: "All the below"
   },
   {
-    title: "What are the two basic groups of data types in JavaScript?",
+    title: "What is the fastest animal?",
     choices: [
-      "Primitive and attribute",
-      "Primitive and reference types",
-      "Reference types and attribute",
-      "None of the above"
+      "Horse",
+      "Cheetah",
+      "Bear",
+      "Human"
     ],
-    answer: "Primitive and reference types"
+    answer: "Cheetah"
   },
   {
     title: "Commonly used data types DO NOT include:",
@@ -21,35 +21,35 @@ var questions = [
     answer: "alerts"
   },
   {
-    title: "Boolean operators that can be used in JavaScript include:",
+    title: "What is the strongest animal pound for pound",
     choices: [
-      "'And' Operator &&",
-      "'Or' Operator ||",
-      "'Not' Operator !",
-      "All the above"
+      "Gorilla",
+      "ant",
+      "Human",
+      "Mantis Shrimp"
     ],
-    answer: "All the above"
+    answer: "Mantis Shrimp"
   },
   {
     title:
       "Which one of these is not among the three different types of errors in JavaScript?",
     choices: [
-      "Animation time errors",
+      "Human error",
       "Load time errors",
       "Run time errors",
       "Logical Errors"
     ],
-    answer: "Animation time errors"
+    answer: "Human error"
   },
   {
-    title: "What is the data type of variables in JavaScript?",
+    title: "What is the largest bone in the human body?",
     choices: [
-      "Object data types",
-      "Function data type",
-      "None of the above",
-      "All of the above"
+      "Femur",
+      "Humerus",
+      "Tibia",
+      "Cranium"
     ],
-    answer: "Object data types"
+    answer: "Femur"
   },
   {
     title: "The condition in an if / else statement is enclosed within ____.",
