@@ -1,5 +1,6 @@
 // DOM elements
-var questionsEl = document.querySelector("#questions");
+var questionsEl = $("#questions");
+console.log(questionsEl)
 var timerEl = document.querySelector("#time");
 var choicesEl = document.querySelector("#choices");
 var submitBtn = document.querySelector("#submit");
@@ -18,7 +19,7 @@ function startQuiz() {
   startScreenEl.setAttribute("class", "hide");
 
   // un-hide questions section
-  questionsEl.removeAttribute("class");
+  questionsEl.removeAttr("class");
 
   // start timer
   timerId = setInterval(clockTick, 1000);
