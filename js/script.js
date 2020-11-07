@@ -44,7 +44,7 @@ function getQuestion() {
   currentQuestion.choices.forEach(function (choice, i) {
     // create new button for each choice
     var choiceNode = document.createElement("button");
-    choiceNode.setAttribute("class", "choice");
+    choiceNode.setAttribute("class", "choice btn btn-primary");
     choiceNode.setAttribute("value", choice);
 
     choiceNode.textContent = i + 1 + ". " + choice;
